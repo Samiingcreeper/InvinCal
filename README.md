@@ -1,0 +1,2 @@
+# InvinCal
+InvinCal is a calculator with functions. You can create your own function with high flexibility in Java, or combine the available functions to create a function in runtime for temporary use (not implemented). Creating custom constants will be available in later versions. I am also planning to add 'programs' to the calculator, just as the programs available in the calculator you use in college or high school.
