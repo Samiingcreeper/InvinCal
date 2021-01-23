@@ -11,7 +11,7 @@ The program has already created constant "A" - "G" automatically. They are not d
 You can create or modify a function by inputting "f(x,y) --> pow(factorial(x),y)", "g(x) --> A + x" etc.
 Input "f --> --delete" to delete the function. (If deleted functions are referenced by calling getValue(), NaN will be returned).
 
-if you define a constant with a custom function. If you change the definition of that function, the constant will probably yield a different value. Vice versa.
+If you define a constant with a custom function, and you change the definition of that function, the constant will probably yield a different value. Vice versa.
 
 Never ever recursively define constants and functions. This would cause stack overflow! This program is not going to support recursive definition as well (such as defining a function to generate Fibonacci numbers).
 
