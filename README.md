@@ -13,7 +13,7 @@ Input "f --> --delete" to delete the function. (If deleted functions are referen
 
 If you define a constant with a custom function, and you change the definition of that function, the constant will probably yield a different value. Vice versa.
 
-Never ever recursively define constants and functions. This would cause stack overflow! This program is not going to support recursive definition as well (such as defining a function to generate Fibonacci numbers).
+Never ever recursively define constants and functions. This would cause stack overflow! This program is not going to support recursive definition as well (such as defining a function to generate Fibonacci numbers, this is quite a lot (tons) of work to do but I don't think it's worthy).
 
 Later on, I will try to create a GUI for my program.
 
