@@ -72,7 +72,7 @@ public abstract class Function extends Operator
 	{
 		return Math.pow(operands[0].getValue(), operands[1].getValue());
 	});
-	public static final ProgrammedFunction FACTORIAL = new ProgrammedFunction("!",1,operands ->
+	public static final ProgrammedFunction FACTORIAL = new ProgrammedFunction("factorial",1,operands ->
 	{
 		int value = (int)operands[0].getValue();
 		
