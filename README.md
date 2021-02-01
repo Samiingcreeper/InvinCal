@@ -22,3 +22,16 @@ As a result, to get the result of
 please input
 
                     9 + 3 * pow(0.5, 10/2)
+
+2. Available Built-in Functions & Constants
+-------------------------------------------------------
+
+The following shows the available built-in functions and constants of InvinCal:
+
+    Common Functions
+    
+        sqr(x)		sqrt(x)		pow(x,y)	
+        
+        log(b,x)  	log10(x)	abs(x)
+
+        
