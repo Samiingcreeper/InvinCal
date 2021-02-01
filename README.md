@@ -3,6 +3,8 @@ Welcome to InvinCal.
 
 This caculator can evaluate expressions. You may also create functions and constants.
 
+The latest version is InvinCal - Recursive Definition Detection
+
 Inputting Expression:   3 + 4 * factorial(5)
 
 Creating Custom Function:         f(x) --> x * x * x 
