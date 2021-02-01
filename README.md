@@ -1,24 +1,45 @@
-# InvinCal
-InvinCal is a calculator with functions, which can be written in Java with high flexibility, or created in runtine by combining the available functions for temporary use (not implemented). Creating custom constants will be available in later versions. I am also planning to add 'programs' to the calculator, just as the programs available in the calculator you use in college or high school. Of course, custom programs can be added with the help of Java.
+Welcome to Invincal!
+This calculator is able to evaluate expressions. You may also create your own constants and functions.
 
-----------------------------------------------------------------------
-2021/1/24 InvinCal - Function No Recursive Definition Detection
+1. Inputting Expressions
+You may input expressions in the way you normally do in maths. Only that this calculator can only recognize the following operations:
 
-You can create or modify a constant by inputting "x -> 5", "x -> combination(2,1)", "x -> f(2,4) + g(3)" etc.
-Input "x -> --delete" to delete the constant. (If deleted constants are referenced by calling getValue(), NaN will be returned ).
-The program has already created constant "A" - "G" automatically. They are not deletable.
+	+	-	*	/	f(x,y,z,...)
 
-You can create or modify a function by inputting "f(x,y) --> pow(factorial(x),y)", "g(x) --> A + x" etc.
-Input "f --> --delete" to delete the function. (If deleted functions are referenced by calling getValue(), NaN will be returned).
+In addition, always remember to input your expression with the right number and order of parentheses.
+As a result, to get the result of 
 
-If you define a constant with a custom function, and you change the definition of that function, the constant will probably yield a different value. Vice versa.
+			9 + 0.5^(10 / 2)
+, please input 
+			9 + pow(0.5, 10/2)
 
-Never ever recursively define constants and functions. This would cause stack overflow! This program is not going to support recursive definition as well (such as defining a function to generate Fibonacci numbers, this is quite a lot (tons) of work to do but I don't think it's worthy).
+2. Available Built-in Functions & Constants
+The following shows the available built-in functions and constants of InvinCal:
+	
+	Common Functions
+		sqr(x)		sqrt(x)		pow(x,y)			
+		log(b,x)  	log10(x)	abs(x)
 
-Later on, I will try to create a GUI for my program.
+	Trigonometry (inputs should be in radian form)
+		sin(x)		cos(x)		tan(x)
+		arcsin(x)	arccos(x)	arctan(x)
+		PI (= 3.141592653589793)
 
-![image](https://github.com/Samiingcreeper/InvinCal/blob/main/InvinCal.png)
+	Probability
+		nCr(n,r)	nPr(n,r)	!(x)
 
-#Arithmetic_Calculator
-#Expression_Calculator
-#Function
+3. Creating And Modifying Custom Functions
+To create custom Fucntions, input the function in the following format:
+
+			functionName(var1, var2, ...) --> expression
+
+For example, To create function f(x,y,z) with expression x*y*z
+
+			f(x,y,z) --> x * y * z
+
+To Modify an existing custom function, input the modified function in the following format:
+
+			functionName(newVar1, newVar2, ...) --> new expression
+
+For example,
+			f(x,y,z) --> 
