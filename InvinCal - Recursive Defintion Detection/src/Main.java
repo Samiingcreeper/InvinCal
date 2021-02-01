@@ -48,18 +48,18 @@ public class Main {
 			programExit();
 			return;
 		}
-		if(input.contains("-->--delete"))
-		{
-			deleteFunction(input);
-		}
+// 		if(input.contains("-->--delete"))
+// 		{
+// 			deleteFunction(input);
+// 		}
 		else if(input.contains("-->"))
 		{
 			setFunction(input);
 		}
-		else if(input.contains("->--delete"))
-		{
-			deleteConstant(input);
-		}
+// 		else if(input.contains("->--delete"))
+// 		{
+// 			deleteConstant(input);
+// 		}
 		else if(input.contains("->--expression"))
 		{
 			setConstant(input, true);
