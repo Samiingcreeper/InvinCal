@@ -13,7 +13,7 @@ Modifying Custom Function:        f(x) --> x   f(x,y,z) --> x * y * z
 
 * Modifying the number of variables will cause other functions/constants calling
 
- the function to return NaN.
+  the function to return NaN.
 
 Creating/Modifying Constant so that the definition is the value of the expression: 
 
