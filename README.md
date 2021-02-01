@@ -7,6 +7,4 @@ This calculator is able to evaluate expressions. You may also create your own co
 1.Inputting Expressions
 ----------------------
 
-You may input expressions in the way you normally do in maths. 
-
-Only that this calculator can only recognize the following operations:
+You may input expressions in the way you normally do in maths. Only that this calculator can only recognize the following operations:
