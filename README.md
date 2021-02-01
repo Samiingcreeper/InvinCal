@@ -20,5 +20,4 @@ As a result, to get the result of
                     9 + 3 * 0.5^(10 / 2)
 
 please input
-
                     9 + 3 * pow(0.5, 10/2)
