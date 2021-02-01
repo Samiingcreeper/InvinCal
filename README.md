@@ -11,7 +11,7 @@ Modifying Custom Function: f(x) --> x   f(x,y,z) --> x * y * z
 
 Creating/Modifying Constant so that the definition is the value of the expression: c -> 3 + 4 / 2       c = 5        
 
-                                                                              c -> 3 + 4 * f(3)    if f(x) = -x in this moment, c = -9.
+                                                                    c -> 3 + 4 * f(3)    if f(x) = -x in this moment, c = -9.
 
 Creaing/Modifying Constant so that the defintion is the expression itself: 
 
