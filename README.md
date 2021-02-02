@@ -1,7 +1,7 @@
 ```
 Welcome to InvinCal.
 
-This caculator can evaluate expressions. You may also create functions and constants.
+This calculator can evaluate expressions. You may also create functions and constants.
 
 The latest version is InvinCal - Recursive Definition Detection
 
