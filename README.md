@@ -7,9 +7,9 @@ The latest version is InvinCal - Recursive Definition Detection
 
 Inputting Expression:             3 + 4 * factorial(5)
 
-Creating Custom Function:         f(x) --> x * x * x 
+Creating Custom Function:         f(x) --> x * x * x      g(x) -->　-x
 
-Modifying Custom Function:        f(x) --> x   f(x,y,z) --> x * y * z
+Modifying Custom Function:        f(x) --> g(g(x))        f(x,y,z) --> x * y * z
 
 * Modifying the number of variables will cause other functions/constants calling
 
