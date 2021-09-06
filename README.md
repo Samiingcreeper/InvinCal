@@ -36,7 +36,7 @@ Deleting Function/Constant:  f -->--delete     for function
 
                              c  ->--delete     for constant
 
-* Be careful that if other functions or constants reference to a delete function/constant, 
+* Be careful that if other functions or constants reference to a deleted function/constant, 
 
   they will return NaN when being called.  
 
