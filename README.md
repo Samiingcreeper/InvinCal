@@ -1,5 +1,14 @@
-```
-Welcome to InvinCal.
+
+Welcome~ This is the first Java big project I have ever made. When I was coding for this project, I had little to knowledge in data structures.
+
+# Introduction
+
+This application is meant to be a calculator that can evalutate expressions.
+
+What's special about this calculator is that it allows you to declare functions, and also functions that use other functions you have declared.
+
+# How to use
+
 
 This calculator can evaluate expressions. You may also create functions and constants.
 
@@ -40,4 +49,4 @@ Deleting Function/Constant:  f -->--delete     for function
 
   they will return NaN when being called.  
 
-```
+
